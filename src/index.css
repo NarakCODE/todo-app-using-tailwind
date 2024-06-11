@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply min-h-[100vh] w-full bg-[#151515] text-[#f5f5f5];
+  }
+}
